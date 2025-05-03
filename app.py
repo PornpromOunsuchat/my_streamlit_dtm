@@ -11,7 +11,7 @@ from sklearn.tree import DecisionTreeClassifier
 import pickle
 
 #load model
-with open('dtm_trained_model.pkl', 'rb') as f:
+with open('dtm_model.pkl', 'rb') as f:
     dtm_model = pickle.load(f)
     
 #application title
