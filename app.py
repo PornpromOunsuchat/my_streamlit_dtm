@@ -7,6 +7,7 @@ Created on Sun Apr 20 10:44:26 2025
 
 import streamlit as st
 import numpy as np
+from sklearn.tree import DecisionTreeClassifier
 import pickle
 
 #load model
